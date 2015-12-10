@@ -30,7 +30,7 @@ h1
     }
 @font-face {
   font-family: Sertig;
-  src: url(fonts/Aller_Rg.ttf);
+  src: url(fonts/GoudyBookletter1911.otf);
 }
 
 body{
@@ -38,13 +38,16 @@ body{
 }
 
 .main-content{
-  font-size: 11pt;
+  font-size: 12pt;
+}
+
+.bottom-margin-10{
+  margin-bottom:10px;
 }
 
 .shop-section-icon{
-  width:6%;
-  height:6%;
-  fill: white;
+  width:7%;
+  height:7%;
   vertical-align:middle;
 }
 -->
@@ -55,7 +58,7 @@ body{
 <body leftmargin="10px" dir="LTR" onLoad="dynAnimation()">
 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;margin-bottom: -26px;" bordercolor="#111111">
   <tr>
-    <td width="1040px">
+    <td width="1000px">
     </td>
     <td>
       <img border="0" style="width:1.65em" src="images/cart_icon.png">
@@ -125,40 +128,42 @@ body{
         <td valign="top" width="531" style="padding-left: 40px; padding-right: 40px">
           <table border="0" cellpadding="0" cellspacing="0" width="100%" bordercolor="#111111">
               <tr>
-                <td valign="top" style="border-style:solid;border-radius:5px; padding:10px" rowspan="3" width="141"><p align="left"><b>
-                  <span>Popular Items</span>
+                <td valign="top" border="0" height="400px" style="background-image:url(images/PopularItemsBackground.png);background-repeat: no-repeat; padding:10px;color:black" rowspan="3" width="100px">
+                  <p align="left" style="margin-top:100px"><b>
+                  <span class="bottom-margin-10" style="font-size:14pt;font-style:bold">Popular Items</span>
                   <br>
-                  <span>
-                    <img class="shop-section-icon" src="svg/leaf32.svg">
+                  <br>
+                  <span class="bottom-margin-10">
+                    <object class="shop-section-icon" type="image/svg+xml" data="svg/leaf32.svg">Your browser does not support SVG</object>
                     <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=PH">Herb Plants</a>
                   </span>
                   <br>
-                  <span>
-                    <img class="shop-section-icon" src="svg/flower125.svg">
+                  <span class="bottom-margin-10">
+                    <object class="shop-section-icon" type="image/svg+xml" data="svg/flower125.svg">Your browser does not support SVG</object>
                     <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=PR">Roses</a>
                   </span>
                   <br>
-                  <span>
-                    <img class="shop-section-icon" src="svg/plant23.svg">
+                  <span class="bottom-margin-10">
+                    <object class="shop-section-icon" type="image/svg+xml" data="svg/plant23.svg">Your browser does not support SVG</object>
                     <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=BP">Butterfly Plants</a>
                   </span>
                   <br>
-                  <span>
-                    <img class="shop-section-icon" src="svg/hand124.svg">
+                  <span class="bottom-margin-10">
+                    <object class="shop-section-icon" type="image/svg+xml" data="svg/hand124.svg">Your browser does not support SVG</object>
                     <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=DF"> Herbs &amp; Teas</a>
                   </span>
                   <br>
-                  <span>
-                    <img class="shop-section-icon" src="svg/leaf32.svg">
+                  <span class="bottom-margin-10">
+                    <object class="shop-section-icon" type="image/svg+xml" data="svg/leaf32.svg">Your browser does not support SVG</object>
                     <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=EO"> Essential Oils</a>
                   </span>
-                  <p align="left">
-                    <b><a href="guarantee.htm">100% MoneyBack Guarantee</a></b>
-                  </p>
-                  <p align="left"> <a href="mailinglist.htm"><b>Subscribe to Newsletter</b></a>
+                  <!--<p align="left">-->
+                    <!--<b><a href="guarantee.htm">100% MoneyBack Guarantee</a></b>-->
+                  <!--</p>-->
+                  <!--<p align="left"> <a href="mailinglist.htm"><b>Subscribe to Newsletter</b></a>-->
               </tr>
           <tr>
-            <td valign="top" width="531" style="padding-left: 40; padding-right: 40"><form method="post" action="http://67.99.206.25/mm5/merchant.mvc?">
+            <td valign="top" width="531" style="padding-right: 40"><form method="post" action="http://67.99.206.25/mm5/merchant.mvc?">
               <input type="hidden" name="Store_Code" value="RH">
               <input type="hidden" name="Screen" value="SRCH">
               <table border="0" style="display:none; border-collapse: collapse" bordercolor="#111111" cellpadding="0" cellspacing="0" width="451">
@@ -172,7 +177,7 @@ body{
               </table>
             </form>
               <p class="main-content" align="left"> <b>The</b> <b><i>Seminole Springs Antique Rose &amp; Herb Farm</i></b> is a
-                family run nursery specializing in an extensive variety of&nbsp; <b> <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=PH">potted
+                family run nursery specializing in an extensive variety of<b> <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=PH">potted
                   herbs</a></b>, <b> <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=PR">old garden
                     roses</a></b>, <b> <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=BP">perennials & butterfly-attracting
                       plants</a></b> available online and at our farm. </p>
