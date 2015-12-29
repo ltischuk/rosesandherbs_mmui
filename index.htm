@@ -24,6 +24,11 @@ h1
   src: url(fonts/GoudyBookletter1911.otf);
 }
 
+@font-face {
+  font-family: NexaRustSlab;
+  src: url(fonts/NexaRustSlab-BlackShadow01.otf);
+}
+
 body{
   font-family:Sertig;
 }
@@ -43,6 +48,17 @@ body{
   width:20px;
   height:20px;
   vertical-align:middle;
+}
+
+.popular-items-font-links a{
+  color: #290066;
+  text-decoration: none;
+
+}
+.popular-items-font-links a:hover{
+  color: white;
+  text-decoration: none;
+
 }
 -->
 </style>
@@ -99,22 +115,6 @@ body{
         </tr>
         <tr>
           <td>
-            <table border="0" cellpadding="0" cellspacing="0" width="800" style="border-collapse: collapse; display:none" bordercolor="#111111">
-              <tr>
-                <td valign="top"><b>
-                <a onMouseOver="document['fpAnimswapImgFP11'].imgRolln=document['fpAnimswapImgFP11'].src;document['fpAnimswapImgFP11'].src=document['fpAnimswapImgFP11'].lowsrc;" onMouseOut="document['fpAnimswapImgFP11'].src=document['fpAnimswapImgFP11'].imgRolln" href="mm5/merchant.mvc?Screen=SFNT&Store_Code=RH">
-                <img border="0" src="images/store.jpg" id="fpAnimswapImgFP11" name="fpAnimswapImgFP11" dynamicanimation="fpAnimswapImgFP11" lowsrc="images/store-over.jpg" width="75" height="34"></a><a onMouseOver="document['fpAnimswapImgFP7'].imgRolln=document['fpAnimswapImgFP7'].src;document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].lowsrc;" onMouseOut="document['fpAnimswapImgFP7'].src=document['fpAnimswapImgFP7'].imgRolln" href="orderinfo.htm"><img border="0" src="images/orderinfo.jpg" id="fpAnimswapImgFP7" name="fpAnimswapImgFP7" dynamicanimation="fpAnimswapImgFP7" lowsrc="images/orderinfo-over.jpg" width="120" height="34"></a>
-                  <a href="resources/index.htm">
-                <img border="0" src="images/resources.jpg" id="fpAnimswapImgFP12" name="fpAnimswapImgFP12" dynamicanimation="fpAnimswapImgFP12" lowsrc="images/resources-over.jpg" width="119" height="34"></a><a href="about.htm"><img border="0" src="images/about.jpg" id="fpAnimswapImgFP13" name="fpAnimswapImgFP13" dynamicanimation="fpAnimswapImgFP13" lowsrc="images/about-over.jpg" width="103" height="34"></a><a href="contact.htm"><img border="0" src="images/contact.jpg" id="fpAnimswapImgFP14" name="fpAnimswapImgFP14" dynamicanimation="fpAnimswapImgFP14" lowsrc="images/contact-over.jpg" width="119" height="34"></a></b></td>
-                <td>
-                  <p align="right">
-                  <a href="mm5/merchant.mvc?Screen=BASK&Store_Code=RH">
-                  <img border="0" src="images/nav-shoppingcart.jpg" width="110" height="34"></a>&nbsp;&nbsp;
-                  <a href="mm5/merchant.mvc?Screen=OINF&Store_Code=RH">
-                  <img border="0" src="images/nav-checkout.jpg" id="fpAnimswapImgFP15" name="fpAnimswapImgFP15" dynamicanimation="fpAnimswapImgFP15" lowsrc="images/nav-checkout-over.jpg" width="97" height="34"></a><br>
-      &nbsp;    </td>
-              </tr>
-            </table>
           </td>
         </tr>
         <tr>
@@ -122,11 +122,12 @@ body{
             <tr>
               <td valign="top" width="531" style="padding-left: 40px; padding-right: 40px">
                 <table border="0" cellpadding="0" cellspacing="0" width="100%" bordercolor="#111111">
-                    <tr>
+                    <tr class="popular-items-font-links">
                       <td valign="top" border="0" height="400px" style="background-image:url(images/PopularItemsBackground.png);background-repeat: no-repeat; padding:15px;color:black" rowspan="3" width="100px">
                         <p align="left" style="margin-top:100px"><b>
-                        <span class="bottom-margin-10" style="display:inline-block;font-size:14pt;">Popular Items</span>
-                        <br>
+                        <span class="bottom-margin-10" style="font-family:NexaRustSlab; margin-top: -10px;margin-bottom:-1px;margin-left: 8px;color:#290066; display:inline-block;font-size:12pt;">Popular</span><br>
+                          <span class="bottom-margin-10" style="font-family:NexaRustSlab;margin-left: 21px;margin-bottom: 7px;color:#290066;  display:inline-block;font-size:12pt;">Items</span>
+                          <br>
                         <span class="bottom-margin-10" style="display:inline-block">
                           <object class="shop-section-icon" type="image/svg+xml" data="svg/leaf32.svg">Your browser does not support SVG</object>
                           <a href="mm5/merchant.mvc?Screen=CTGY&Store_Code=RH&Category_Code=PH">Herb Plants</a>
