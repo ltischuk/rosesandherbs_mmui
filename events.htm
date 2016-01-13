@@ -2,136 +2,137 @@
 <html>
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   <title>Events</title>
-    <style>
-      h1 {
-        margin-bottom:.0001pt;
-        page-break-after:avoid;
-        font-size:14.0pt;
-        font-weight:normal; margin-left:0cm; margin-right:0cm; margin-top:0cm
+    <!--<style>-->
+      <!--h1 {-->
+        <!--margin-bottom:.0001pt;-->
+        <!--page-break-after:avoid;-->
+        <!--font-size:14.0pt;-->
+        <!--font-weight:normal; margin-left:0cm; margin-right:0cm; margin-top:0cm-->
 
-      }
-      .custom-header {
-        font-size: 22px;
-        font-weight:bold;
-      }
-      @font-face {
-        font-family: GoudyBookletter1911;
-        src: url('fonts/goudybookletter1911-webfont.eot');
-        src: url('fonts/GoudyBookletter1911.otf');
-        src: url('fonts/goudybookletter1911-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/goudybookletter1911-webfont.woff2') format('woff2'),
-        url('fonts/goudybookletter1911-webfont.woff') format('woff'),
-        url('fonts/goudybookletter1911-webfont.ttf') format('truetype'),
-        url('fonts/goudybookletter1911-webfont.svg#goudy_bookletter_1911regular') format('svg');
-        font-weight: normal;
-        font-style: normal;
-      }
+      <!--}-->
+      <!--.custom-header {-->
+        <!--font-size: 22px;-->
+        <!--font-weight:bold;-->
+      <!--}-->
+      <!--@font-face {-->
+        <!--font-family: GoudyBookletter1911;-->
+        <!--src: url('fonts/goudybookletter1911-webfont.eot');-->
+        <!--src: url('fonts/GoudyBookletter1911.otf');-->
+        <!--src: url('fonts/goudybookletter1911-webfont.eot?#iefix') format('embedded-opentype'),-->
+        <!--url('fonts/goudybookletter1911-webfont.woff2') format('woff2'),-->
+        <!--url('fonts/goudybookletter1911-webfont.woff') format('woff'),-->
+        <!--url('fonts/goudybookletter1911-webfont.ttf') format('truetype'),-->
+        <!--url('fonts/goudybookletter1911-webfont.svg#goudy_bookletter_1911regular') format('svg');-->
+        <!--font-weight: normal;-->
+        <!--font-style: normal;-->
+      <!--}-->
 
-      @font-face {
-        font-family: NexaRustSlab;
-        src: url('fonts/nexarustslab-blackshadow01-webfont.eot');
-        src: url('fonts/nexarustslab-blackshadow01-webfont.eot?#iefix') format('embedded-opentype'),
-        url('fonts/nexarustslab-blackshadow01-webfont.woff2') format('woff2'),
-        url('fonts/nexarustslab-blackshadow01-webfont.woff') format('woff'),
-        url('fonts/nexarustslab-blackshadow01-webfont.ttf') format('truetype'),
-        url('fonts/nexarustslab-blackshadow01-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
-        font-weight: normal;
-        font-style: normal;
-      }
+      <!--@font-face {-->
+        <!--font-family: NexaRustSlab;-->
+        <!--src: url('fonts/nexarustslab-blackshadow01-webfont.eot');-->
+        <!--src: url('fonts/nexarustslab-blackshadow01-webfont.eot?#iefix') format('embedded-opentype'),-->
+        <!--url('fonts/nexarustslab-blackshadow01-webfont.woff2') format('woff2'),-->
+        <!--url('fonts/nexarustslab-blackshadow01-webfont.woff') format('woff'),-->
+        <!--url('fonts/nexarustslab-blackshadow01-webfont.ttf') format('truetype'),-->
+        <!--url('fonts/nexarustslab-blackshadow01-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');-->
+        <!--font-weight: normal;-->
+        <!--font-style: normal;-->
+      <!--}-->
 
 
-      body{
-        font-family:GoudyBookletter1911;
-      }
+      <!--body{-->
+        <!--font-family:GoudyBookletter1911;-->
+      <!--}-->
 
-      .main-content{
-        font-size: 12pt;
-      }
+      <!--.main-content{-->
+        <!--font-size: 12pt;-->
+      <!--}-->
 
-      .bottom-margin-10{
-        margin-bottom:10px;
-      }
-      .bottom-margin-5{
-        margin-bottom:5px;
-      }
+      <!--.bottom-margin-10{-->
+        <!--margin-bottom:10px;-->
+      <!--}-->
+      <!--.bottom-margin-5{-->
+        <!--margin-bottom:5px;-->
+      <!--}-->
 
-      .shop-section-icon{
-        width:20px;
-        height:20px;
-        vertical-align:middle;
-      }
+      <!--.shop-section-icon{-->
+        <!--width:20px;-->
+        <!--height:20px;-->
+        <!--vertical-align:middle;-->
+      <!--}-->
 
-      .custom-link-section a{
-        color: #290066;
-        text-decoration: none;
+      <!--.custom-link-section a{-->
+        <!--color: #290066;-->
+        <!--text-decoration: none;-->
 
-      }
-      .custom-link-section a:hover{
-        color: #00b33c;
-        text-decoration: none;
+      <!--}-->
+      <!--.custom-link-section a:hover{-->
+        <!--color: #00b33c;-->
+        <!--text-decoration: none;-->
 
-      }
+      <!--}-->
 
-      .event-img-container {
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        -webkit-background-size: 100% 100%;
-        background-size: 100% 100%;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        background-repeat:no-repeat;
-        min-width:150px;
-        min-height:110px
-      }
+      <!--.event-img-container {-->
+        <!-- -moz-background-size: 100% 100%;-->
+        <!-- -o-background-size: 100% 100%;-->
+        <!-- -webkit-background-size: 100% 100%;-->
+        <!--background-size: 100% 100%;-->
+        <!--border-top-right-radius: 15px;-->
+        <!--border-top-left-radius: 15px;-->
+        <!--background-repeat:no-repeat;-->
+        <!--min-width:150px;-->
+        <!--min-height:110px-->
+      <!--}-->
 
-      .event-date-section{
-        text-align:center;
-        border-top:1px;
-        border-bottom:1px;
-        border-left:0px;
-        border-right:0px;
-        border-style:solid;
-        border-color:#290066;
-        padding:5px;
-      }
+      <!--.event-date-section{-->
+        <!--text-align:center;-->
+        <!--border-top:1px;-->
+        <!--border-bottom:1px;-->
+        <!--border-left:0px;-->
+        <!--border-right:0px;-->
+        <!--border-style:solid;-->
+        <!--border-color:#290066;-->
+        <!--padding:5px;-->
+      <!--}-->
 
-      .event-info-section{
-        font-size:14px;
-        font-weight:bold;
-        padding:5px;
-        color: black;
-      }
+      <!--.event-info-section{-->
+        <!--font-size:14px;-->
+        <!--font-weight:bold;-->
+        <!--padding:5px;-->
+        <!--color: black;-->
+      <!--}-->
 
-      .event-container{
+      <!--.event-container{-->
 
-        float:left;
-        margin-right:80px;
-        margin-bottom:20px;
-        border-radius: 18px;
-        border: 2px solid #290066;
-        background-color:white;
-        min-width:250px;
-        max-width:250px;
-        max-height:380px;
-        min-height:380px
-      }
+        <!--float:left;-->
+        <!--margin-right:80px;-->
+        <!--margin-bottom:20px;-->
+        <!--border-radius: 18px;-->
+        <!--border: 2px solid #290066;-->
+        <!--background-color:white;-->
+        <!--min-width:250px;-->
+        <!--max-width:250px;-->
+        <!--max-height:380px;-->
+        <!--min-height:380px-->
+      <!--}-->
 
-      .event-container a{
-        text-decoration: none;
-      }
+      <!--.event-container a{-->
+        <!--text-decoration: none;-->
+      <!--}-->
 
-      .custom-link-section a{
-        color: #290066;
-        text-decoration: none;
+      <!--.custom-link-section a{-->
+        <!--color: #290066;-->
+        <!--text-decoration: none;-->
 
-      }
-      .custom-link-section a:hover{
-        color: white;
-        text-decoration: none;
+      <!--}-->
+      <!--.custom-link-section a:hover{-->
+        <!--color: white;-->
+        <!--text-decoration: none;-->
 
-      }
-    </style>
+      <!--}-->
+    <!--</style>-->
   </head>
 
   <body style="background-image:url(images/wood2.jpeg)" leftmargin="10px" dir="LTR">
@@ -182,22 +183,22 @@
                 <a href="http://www.floridastatefair.com" target="_blank"/>
                   <div class="event-img-container" style="background-image:url(images/floridastatefair.jpeg);"></div>
                   <div class="event-date-section"><b>Florida State Fair<br>February 4-15, 2016<br>Tampa,FL</b></div>
-                  <div class="event-info-section">Drop by our booth in Cracker Country, a rural living history museum on the Florida State Fairgrounds in Tampa, Fl. Browser our great selection of dried herbs, essential oils, teas and plants for sale.</div>
+                  <div class="event-info-section">Drop by our booth in Cracker Country, a rural living history museum on the Florida State Fairgrounds in Tampa, Fl.<br><br>Browse our great selection of dried herbs, essential oils, teas and plants for sale.</div>
                 </a>
               </div>
               <div class="event-container">
                 <a href="http://www.leugardens.org/annual-plant-sale/" target="_blank"/>
                   <div class="event-img-container" style="background-image:url(images/leugardens.jpg);"></div>
                   <div class="event-date-section"><b>Leu Gardens Annual Plant Sale<br>March 12-13, 2016<br>Orlando,FL</b></div>
-                  <div class="event-info-section">Visit our booth just inside the front gates! Free Admission all Weekend! Over 50 growers and vendors selling a variety of plants and outdoor accessories to enhance your landscape and home.  Bring a wagon or plant cart for your purchases. Leu Gardens’ Members shop early on Saturday, March 12 at 8:00 a.m.</div>
+                  <div class="event-info-section">Visit our booth just inside the front gates! Free Admission all Weekend! Over 50 growers and vendors selling a variety of plants and outdoor accessories to enhance your landscape and home.  Bring a wagon or plant cart for your purchases.<br><br>Leu Gardens’ Members shop early on Saturday, March 12 at 8:00 a.m.</div>
                 </a>
               </div>
               <div class="event-container">
-                <!--<a href="http://www.leugardens.org/annual-plant-sale/" target="_blank"/>-->
+                <a href="https://www.facebook.com/CunninghamsHerbs/" target="_blank">
                 <div class="event-img-container" style="background-image:url(images/cunninhamherbfaire.jpg);"></div>
                 <div class="event-date-section"><b>Cunningham's Herbal Faire<br>April 2-3, 2016<br>Orlando,FL</b></div>
-                <div class="event-info-section">Experience a weekend of all things herbal! Vendors will be selling Soap, Seasonings, Bees and Honey, Pressed Floral Designs, Herbal Cards, Yard Art, Hypertufa Pots, Antique Roses, Berry Bushes, Olive Trees, Scented Geraniums, Succulents and more! For additional information, contact Linda at 904 725 3106 or locun@att.net.</div>
-                <!--</a>-->
+                <div class="event-info-section">Experience a weekend of all things herbal! Vendors will be selling Soap, Seasonings, Bees and Honey, Pressed Floral Designs, Herbal Cards, Yard Art, Hypertufa Pots, Antique Roses, Berry Bushes, Olive Trees, Scented Geraniums, Succulents and more!<br><br>For additional information, contact Linda at 904 725 3106 or locun@att.net.</div>
+                </a>
               </div>
               <div class="event-container">
                 <a href="http://www.apopkaartandfoliagefestival.org/" target="_blank"/>
@@ -210,14 +211,14 @@
                 <a href="https://www.facebook.com/CunninghamsHerbs/" target="_blank"/>
                 <div class="event-img-container" style="background-image:url(images/lindacunninghammothersday.jpeg);"></div>
                 <div class="event-date-section"><b>Cunningham's Herbs Mother's Day Sale<br>May 7th & 8th, 2016<br>Jacksonville,FL</b></div>
-                <div class="event-info-section">We will only be able to participate on Saturday but are looking forward to seeing that Jacksonville crowd!  Check out Linda Oakes Cunningham on Facebook. She has several great sales each year, fall and spring.  </div>
+                <div class="event-info-section">We will only be able to participate on Saturday but are looking forward to seeing that Jacksonville crowd!<br><br>Check out Linda Oakes Cunningham on Facebook. She has several great sales each year, fall and spring.  </div>
                 </a>
               </div>
               <div class="event-container">
                 <!--<a href="http://www.apopkaartandfoliagefestival.org/" target="_blank"/>-->
                 <div class="event-img-container" style="background-image:url(images/butterflyfestival.jpeg);"></div>
                 <div class="event-date-section" style="font-size:14px"><b>20th Annual Butterfly Festival<br>May 14, 2016<br>Seminole Springs Farm Eustis,FL</b></div>
-                <div class="event-info-section" style="font-size:12px"><b>10 to 3, Free Admission *No pets please*<br>Come on out to our farm & check out our herbs and blooming perennials. Vendors include:
+                <div class="event-info-section" style="font-size:13px"><b>10 to 3, FREE ADMISSION<br>*NO PETS PLEASE*<br>Come on out to our farm & check out our herbs and blooming perennials. Vendors include:
                   <ul>
                     <li>
                       Lake County Master Gardeners
