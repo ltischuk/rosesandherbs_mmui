@@ -11,17 +11,22 @@
     font-style: normal;
 }
 
+
 body{
-    font-family:GoudyBookletter1911;
+    font-family:Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
 
 p{
-    font-family:GoudyBookletter1911;
+    font-family:Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
 
 .rounded-img-border{
     border-radius: 15px;
     border-color:#e2d9ca;
+}
+
+.standout-font{
+    font-size: 16px;
 }
 
 a.nav-bar-link{
@@ -58,6 +63,7 @@ a.nav-bar-link{
 
     color: #290066;
     text-decoration: none;
+    font-size: 15px;
 }
 
 .shop-link-section a:hover{
@@ -74,5 +80,101 @@ a.nav-bar-link{
 .custom-link-section a:hover{
     color: #00b33c;
     text-decoration: none;
+
+}
+.detail-info-section{
+    font-size:12px;
+}
+
+.event-img-container {
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-repeat:no-repeat;
+    min-width:150px;
+    min-height:110px
+}
+
+.event-date-section{
+    text-align:center;
+    border-top:1px;
+    border-bottom:1px;
+    border-left:0px;
+    border-right:0px;
+    border-style:solid;
+    border-color:#290066;
+    padding:5px;
+}
+
+.event-info-section{
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;
+    color: black;
+}
+
+.event-container{
+
+    float:left;
+    margin-right:80px;
+    margin-bottom:20px;
+    border-radius: 18px;
+    border: 2px solid #290066;
+    background-color:white;
+    min-width:250px;
+    max-width:250px;
+    max-height:380px;
+    min-height:380px
+}
+
+.event-container a{
+    text-decoration: none;
+}
+
+.custom-header {
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.custom-sub-header {
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.detail-info-section{
+    font-size:12px;
+}
+
+.alert-section {
+
+    color:#FF0000;
+    font-size:14px;
+    font-weight: bold;
+}
+
+.submit-button{
+
+    background-color: #290066;
+    color:white;
+    border-radius:5px;
+    border-color: #290066;
+    font-family:GoudyBookletter1911;
+    font-size:18px;
+    padding-right:60px;
+    padding-left:60px;
+
+}
+
+.submit-button:hover{
+    cursor:hand;
+}
+
+.subsection-light-grey-print{
+
+    font-size:11px;
+    color: #808080;
 
 }
