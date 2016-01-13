@@ -32,7 +32,6 @@ p{
 a.nav-bar-link{
 
     color:white;
-    font-weight: bold;
     font-size: 22px;
     text-decoration:none;
     font-weight: bold;
@@ -161,14 +160,30 @@ a.nav-bar-link{
     color:white;
     border-radius:5px;
     border-color: #290066;
-    font-family:GoudyBookletter1911;
     font-size:18px;
     padding-right:60px;
+    font-family:Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
     padding-left:60px;
 
 }
 
 .submit-button:hover{
+    cursor:hand;
+}
+
+.submit-button-small{
+
+    background-color: #290066;
+    color:white;
+    border-radius:5px;
+    font-family:Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    border-color: #290066;
+    font-size:14px;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.submit-button-small:hover{
     cursor:hand;
 }
 
